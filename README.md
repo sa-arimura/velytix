@@ -4,6 +4,22 @@
 
 Velytixは、受注CSVの入力ミスや重複を見つけ、正常な明細から売上と販売数量を集計する日本語のWebアプリです。CSVの読み込み、検証、集計、画面表示、出力を実装したPythonの就職活動用ポートフォリオです。名前は Verify（検証）と Analytics（分析）から着想を得ています。
 
+## 公開デモ
+
+[Velytixを開く](https://velytix.streamlit.app/)
+
+### データ一覧
+
+![受注データ一覧と検索欄](docs/screenshots/data-list.jpg)
+
+### チェック結果
+
+![入力チェックの件数とエラー絞り込み](docs/screenshots/validation-results.jpg)
+
+### 売上分析
+
+![販売数量ランキングと月別売上推移グラフ](docs/screenshots/sales-analysis.jpg)
+
 ## 主な機能と使い方
 
 1. **CSVを読み込む。** 「受注CSVを選択」からファイルを指定します。内容を確認し直すときは「再読み込み」を押します。
@@ -132,4 +148,4 @@ PyCharmのエディターでも同じ環境を使う場合は、設定の **Pyth
 
 ## 公開準備
 
-Windowsへの移行、GitHubへのアップロード、Streamlit Community Cloudでの設定は [手動確認・公開手順](RELEASE_GUIDE.md) を参照してください。公開後に、発行済みのリポジトリURLとアプリURLをこのREADMEに追記します。
+Windowsへの移行、GitHubへのアップロード、Streamlit Community Cloudでの設定は [手動確認・公開手順](RELEASE_GUIDE.md) を参照してください。
