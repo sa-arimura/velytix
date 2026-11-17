@@ -1,0 +1,13 @@
+[theme.light]
+primaryColor = "#6347A3"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#EEF7F3"
+textColor = "#182644"
+chartCategoricalColors = ["#6347A3", "#23775E"]
+
+[theme.dark]
+primaryColor = "#B59CFF"
+backgroundColor = "#10182B"
+secondaryBackgroundColor = "#1B2741"
+textColor = "#F1F4FC"
+chartCategoricalColors = ["#67DBED", "#B59CFF"]

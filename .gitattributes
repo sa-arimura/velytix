@@ -1,0 +1,2 @@
+# 自動生成したCSVをOSによらず同じバイト列で保存する。
+sample_orders*.csv text eol=lf

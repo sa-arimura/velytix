@@ -1,0 +1,14 @@
+# Pythonの仮想環境・キャッシュ
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# PyCharmのローカル設定
+.idea/
+
+# ローカルの認証情報
+.env
+.env.*
+.streamlit/secrets.toml
